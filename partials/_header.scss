@@ -7,32 +7,41 @@ header{
     display: flex;
     align-items:center;
     justify-content: space-between;
+    font-family: 'sora', sans-serif;
 }
 
 i{
     color: $white-normal;
 }
 
-.header-icons{
+.header-list{
     display: flex;
-    gap: 14px;
+    flex-direction: row;
+    gap: 8px;
+}
+header a {
+    text-decoration: none;
+    color: $white-normal;
+    position: relative;
+    justify-content: center;
+    padding: 1%;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
-.header-icons a:hover{
-    i{
-        animation: translateY 0.8s infinite alternate;
-        color: $red-light;
-    }
+.header-list a:hover{
+    animation: scaleButton 0.8s alternate infinite;
+    color: $red-light;
 }
 
-@keyframes translateY{
-    from{
-        transform: translateY(0) scale(1);
+@keyframes scaleButton {
+    from {
+        transform: scale(1);
     }
     to{
-        transform: translateY(-8px) scale(1.1);
+        transform: scale(1.07);
     }
-}
+ }
 
 .header-button{
     border: 1px solid $white-normal;
@@ -44,15 +53,19 @@ i{
 }
 
 .header-button:hover{
-    border: 1px solid $red-light;
-    background-color: $red-light;
+    border: 1px solid $red-normal;
+    background-color: $red-normal;
 }
 
 .header-logo{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 35px;
 }
 
 @media screen and (max-width: 768px) {

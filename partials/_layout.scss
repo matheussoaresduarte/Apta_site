@@ -13,7 +13,7 @@
     content: '';
     display: block;
     position: absolute;
-     background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/uniforme-de-construtor-na-postura-plana-de-fundo-de-madeira.jpg");
+     background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/42bfcc9203041d2254b0948445d4745d.jpg");
      left: 0;
      top: 0;
      width: 100%;
@@ -254,6 +254,12 @@
     }
 }
 
+.footer-logo{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
 
 //--------------------------------------------------
 .btn-whatsapp{
