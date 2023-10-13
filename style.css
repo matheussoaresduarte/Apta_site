@@ -91,7 +91,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/uniforme-de-construtor-na-postura-plana-de-fundo-de-madeira.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -288,6 +288,19 @@ i {
   gap: 8px;
 }
 
+.footer-icons a:hover i {
+  animation: translateY 0.8s infinite alternate;
+  color: #d34040;
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
 .btn-whatsapp {
   position: fixed;
   bottom: 14px;
