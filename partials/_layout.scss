@@ -13,7 +13,11 @@
     content: '';
     display: block;
     position: absolute;
+<<<<<<< HEAD
      background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+=======
+     background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/42bfcc9203041d2254b0948445d4745d.jpg");
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
      left: 0;
      top: 0;
      width: 100%;
@@ -238,7 +242,32 @@
     display: flex;
     gap: 8px;
 }
+<<<<<<< HEAD
 
+=======
+.footer-icons a:hover{
+    i{
+        animation: translateY 0.8s infinite alternate;
+        color: $red-light;
+    }
+}
+
+@keyframes translateY{
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to{
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+.footer-logo{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
 
 //--------------------------------------------------
 .btn-whatsapp{

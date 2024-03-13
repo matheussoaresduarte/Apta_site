@@ -13,12 +13,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
+=======
+  font-family: "sora", sans-serif;
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
 }
 
 i {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 .header-icons {
   display: flex;
   gap: 14px;
@@ -35,6 +40,35 @@ i {
   }
   to {
     transform: translateY(-8px) scale(1.1);
+=======
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  justify-content: center;
+  padding: 1%;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.header-list a:hover {
+  animation: scaleButton 0.8s alternate infinite;
+  color: #ffa200;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
   }
 }
 .header-button {
@@ -47,6 +81,7 @@ i {
 }
 
 .header-button:hover {
+<<<<<<< HEAD
   border: 1px solid #d34040;
   background-color: #d34040;
 }
@@ -56,6 +91,21 @@ i {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+=======
+  border: 1px solid #510087;
+  background-color: #510087;
+}
+
+.header-logo {
+  max-width: 200px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
 }
 
 @media screen and (max-width: 768px) {
@@ -91,7 +141,11 @@ i {
   content: "";
   display: block;
   position: absolute;
+<<<<<<< HEAD
   background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+=======
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/42bfcc9203041d2254b0948445d4745d.jpg");
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
   left: 0;
   top: 0;
   width: 100%;
@@ -126,7 +180,11 @@ i {
 .button-contact {
   padding: 14px 28px;
   color: #ffffff;
+<<<<<<< HEAD
   background-color: #d94140;
+=======
+  background-color: #510087;
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -288,6 +346,29 @@ i {
   gap: 8px;
 }
 
+<<<<<<< HEAD
+=======
+.footer-icons a:hover i {
+  animation: translateY 0.8s infinite alternate;
+  color: #ffa200;
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+.footer-logo {
+  max-width: 200px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+>>>>>>> 8f3a43b389a506b753d7af2ebf03772f6c797207
 .btn-whatsapp {
   position: fixed;
   bottom: 14px;
